@@ -22,7 +22,7 @@ from distribmagik import*
 ##Définitions essentielles au bot
 
 client = discord.Client()
-TOKEN = "Njc3NzcwNjAxOTA5MzIxNzI4.XkZFmw.J_UvWv3_26NkNcLsHuPWaCSTRbw"
+TOKEN = TOKEN
 prefix = "&"
 
 ## Démarrage

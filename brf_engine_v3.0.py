@@ -96,13 +96,6 @@ async def on_ready():
     members = "\n - ".join([member.name for member in guild.members])
     print(f"Guild Members :\n - {members}", "\n")
 
-    # continuer = True
-    # while continuer:
-    #     x = str(input())
-    #     if x.lower() == "stop":
-    #         continuer = False
-    #         await bot.logout()
-
 
 @bot.event
 async def on_member_join(member):
